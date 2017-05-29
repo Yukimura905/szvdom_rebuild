@@ -1,0 +1,29 @@
+-------------------------------
+[09.27.16 16:18:56] abcParser2 start...
+[09.27.16 16:18:56] Error: Cannot create SimpleXML object
+[09.27.16 16:18:56] work time: 0.0093588829 sec
+[09.27.16 16:18:56] used: 137,728 bytes
+-------------------------------
+[09.27.16 16:39:08] abcParser2 start...
+[09.27.16 16:39:09] Objects deleted: 0
+[09.27.16 16:39:09] Objects added: 286
+[09.27.16 16:39:10] Appartaments deleted: 0
+[09.27.16 16:39:10] Appartaments added: 64395
+[09.27.16 19:15:06] work time: 9,358.0860540867 sec
+[09.27.16 19:15:06] used: 86,634,440 bytes
+-------------------------------
+[10.09.16 17:22:39] abcParser2 start...
+[10.09.16 17:22:40] Objects deleted: 0
+[10.09.16 17:22:40] Objects added: 286
+[10.09.16 17:22:41] Appartaments deleted: 0
+[10.09.16 17:22:41] Appartaments added: 64395
+[10.09.16 19:58:27] work time: 9,347.3514339924 sec
+[10.09.16 19:58:27] used: 87,938,360 bytes
+-------------------------------
+[11.23.16 14:52:08] abcParser2 start...
+[11.23.16 14:52:09] Objects deleted: 0
+[11.23.16 14:52:09] Objects added: 286
+[11.23.16 14:52:10] Appartaments deleted: 0
+[11.23.16 14:52:10] Appartaments added: 64395
+[11.23.16 17:32:09] work time: 9,600.3199889660 sec
+[11.23.16 17:32:09] used: 88,446,672 bytes

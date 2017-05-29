@@ -1,0 +1,48 @@
+2017-05-27 15:13:48 - Host: dev5.szvdom.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Non-static method CAllForm::GetDateValue() should not be called statically, assuming $this from incompatible context (0)
+/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/components/bitrix/form.result.new/component.php:779
+#0: include(string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:548
+#1: CBitrixComponent->__includeComponent()
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:600
+#2: CBitrixComponent->includeComponent(string, array, object)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/main.php:1035
+#3: CAllMain->IncludeComponent(string, string, array, object)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/templates/.default/components/bitrix/form/model_show/new.php:5
+#4: include(string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component_template.php:714
+#5: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component_template.php:806
+#6: CBitrixComponentTemplate->IncludeTemplate(array)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:681
+#7: CBitrixComponent->showComponentTemplate()
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:629
+#8: CBitrixComponent->includeComponentTemplate(string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/components/bitrix/form/component.php:161
+#9: include(string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:548
+#10: CBitrixComponent->__includeComponent()
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:600
+#11: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/main.php:1035
+#12: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/templates/.default/components/bitrix/catalog.section/list3/template.php:216
+#13: include(string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component_template.php:714
+#14: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component_template.php:806
+#15: CBitrixComponentTemplate->IncludeTemplate(array)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:681
+#16: CBitrixComponent->showComponentTemplate()
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:629
+#17: CBitrixComponent->includeComponentTemplate()
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/components/bitrix/catalog.section/component.php:1295
+#18: include(string)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:548
+#19: CBitrixComponent->__includeComponent()
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/component.php:600
+#20: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/dev5/data/www/dev5.szvdom.ru/bitrix/modules/main/classes/general/main.php:1035
+#21: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/dev5/data/www/dev5.szvdom.ru/obekty/index.php:277
+----------
