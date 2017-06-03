@@ -2,7 +2,7 @@
 $APPLICATION->SetTitle("Новостройки");
 
 
-echo "!";
+
 
 
 ?>
