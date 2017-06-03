@@ -2,6 +2,8 @@
 $APPLICATION->SetTitle("Новостройки");
 
 
+echo "!";
+
 
 ?>
 <?
